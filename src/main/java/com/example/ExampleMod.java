@@ -5,7 +5,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = "OkwCopySquad", version = "1.0.3")
+@Mod(modid = "OkwSquadCopy", version = "1.0.3")
 public class ExampleMod {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {

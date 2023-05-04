@@ -1,16 +1,17 @@
 [
   {
-	"modid": "examplemod",
-	"name": "Xample Mod",
-	"description": "A mod that is used as an example.",
+	"modid": "OkwSquadCopy",
+	"name": "OkwSquadCopy",
+	"description": "You need MegaWallsEnhancement to use this mod! Everytime you do /all in a Megawalls game it pops up a message, after clicking on it, your squad add command for the whole team is ready to go. This mod is made for CuteOvO who plays phoenix and needs to see their teammate's health so that they can bond.",
+
 	"version": "1.0.0",
 	"mcversion": "1.8.9",
-	"url": "https://github.com/romangraef/Forge1.8.9Template/",
+	"url": " ",
 	"updateUrl": "",
 	"authorList": [
-	  "You"
+	  "OKW"
 	],
-	"credits": "",
+	"credits": "CuteOvO",
 	"logoFile": "",
 	"screenshots": [],
 	"dependencies": []
