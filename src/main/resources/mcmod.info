@@ -2,7 +2,7 @@
   {
 	"modid": "OkwSquadCopy",
 	"name": "OkwSquadCopy",
-	"description": "You need MegaWallsEnhancement to use this mod! Everytime you do /all in a Megawalls game it pops up a message, after clicking on it, your squad add command for the whole team is ready to go. This mod is made for CuteOvO who plays phoenix and needs to see their teammate's health so that they can bond.",
+	"description": "You need MegaWallsEnhancement to use this mod! Everytime you do /who in a Megawalls game it pops up a message, after clicking on it, your squad add command for the whole team is ready to go. This mod is made for CuteOvO who plays phoenix and needs to see their teammate's health so that they can bond. If you want it to be cleared, do /squad disband",
 
 	"version": "1.0.0",
 	"mcversion": "1.8.9",
