@@ -14,7 +14,7 @@ public class ChatListener {
         String playerName = Minecraft.getMinecraft().thePlayer.getName();
         String message = event.message.getUnformattedText();
 
-        if (message.contains(", " + playerName + ",")) {
+        if (message.contains(", " + playerName + ".")|| message.contains("- " + playerName + ",")||message.contains(", " + playerName) ) {
             String modifiedMessage = message.replace(",", "").replace(".", "").replace("§7", "");
             String finalMessage = EnumChatFormatting.BLUE + "squad add " + EnumChatFormatting.GREEN + modifiedMessage +EnumChatFormatting.YELLOW + " [CopySquadForCuteOvO]";
             String unformattedFinalMessage = "/squad add " + modifiedMessage;
