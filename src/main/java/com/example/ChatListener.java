@@ -16,7 +16,7 @@ public class ChatListener {
 
         if (message.contains(", " + playerName + ".")|| message.contains("- " + playerName + ",")||message.contains(", " + playerName) ) {
             String modifiedMessage = message.replace(",", "").replace(".", "").replace("§7", "");
-            String finalMessage = EnumChatFormatting.BLUE + "squad add " + EnumChatFormatting.GREEN + modifiedMessage +EnumChatFormatting.YELLOW + " [CopySquadForCuteOvO]";
+            String finalMessage = EnumChatFormatting.BLUE + "squad add " + EnumChatFormatting.GREEN + modifiedMessage +EnumChatFormatting.YELLOW + " [CopySquadOvO]";
             String unformattedFinalMessage = "/squad add " + modifiedMessage;
 
             ChatComponentText chatComponent = new ChatComponentText(finalMessage);
