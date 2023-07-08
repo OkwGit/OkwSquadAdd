@@ -13,5 +13,6 @@ public class ExampleMod {
 
         // Register the chat listener
         MinecraftForge.EVENT_BUS.register(new ChatListener());
+
     }
 }
